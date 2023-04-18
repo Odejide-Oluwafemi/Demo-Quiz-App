@@ -21,7 +21,6 @@ class Result extends StatelessWidget {
 
     int maxAttainableScore = 10 * questionCount;
     double percentageScore = getPercent(resultScore, maxAttainableScore);
-    print(percentageScore);
     if (percentageScore >= 80.0) {
       resText = "Absolute Worst!";
     } else if (percentageScore >= 68.0) {
